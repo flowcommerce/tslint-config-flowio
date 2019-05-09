@@ -6,34 +6,20 @@ A package that provides our tslint TypeScript linting rules as extensible shared
 
 ## Installation
 
-Install the correct versions of each package, which are listed by the command:
-
-```
-npm info "@flowio/tslint-config-flowio@latest" peerDependencies
-```
-
-Linux / OSX users can simply run:
-
-```
-npm info "@flowio/tslint-config-flowio@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "@flowio/tslint-config-flowio@latest"
-```
-
-Windows users can either install all the peer dependencies manually, or use the `install-peerdeps` cli tool.
-
-```
-npm install -g install-peerdeps
-install-peerdeps --dev @flowio/tslint-config-flowio
+```bash
+npm install @flowio/tslint-config-flowio --save-dev
 ```
 
 ## Usage
 
-Extend the config in a `tslint.json` or `tslint.yaml` file:
+Extend the config in a `tslint.json` file:
 
 ```json
 {
   "extends": "@flowio/tslint-config-flowio"
 }
 ```
+or in a `tslint.yaml` file:
 
 ```yaml
 extends: "@flowio/tslint-config-flowio"
