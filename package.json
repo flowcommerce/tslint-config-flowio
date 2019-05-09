@@ -1,0 +1,31 @@
+{
+  "name": "@flowio/tslint-config-flowio",
+  "version": "1.0.0",
+  "description": "Flow.io TypeScript linting rules for tslint",
+  "main": "tslint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flowcommerce/tslint-config-flowio.git"
+  },
+  "keywords": [
+    "tslint",
+    "typescript",
+    "flowio"
+  ],
+  "author": "frontend@flow.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flowcommerce/tslint-config-flowio/issues"
+  },
+  "homepage": "https://github.com/flowcommerce/tslint-config-flowio#readme",
+  "dependencies": {
+    "tslint-config-airbnb": "^5.11.1"
+  },
+  "devDependencies": {
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
+}
